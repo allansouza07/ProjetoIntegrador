@@ -162,17 +162,19 @@ Durante o desenvolvimento deste projeto foram praticados conhecimentos em:
 
 ---
 
-# 📷 Demonstração
+# 📷 Algumas imagens do sistema
 
+## Página inicial
 
-```
-<img width="1339" height="632" alt="menu_manicure" src="menu_manicure.png" />
+![Página inicial](assets/menu_manicure.png)
 
+## Página de agendamento
 
-/img/servicos.png
+![Página de agendamento](assets/agendamento_manicure.png)
 
-/img/contato.png
-```
+## Localização
+
+![Localizacao](assets/localizacao_manicure.png)
 
 
 
@@ -196,11 +198,9 @@ Caso tenha sugestões de melhorias, fique à vontade para abrir uma **Issue** ou
 
 ---
 
-# 👨‍💻 Autor
+# 👨‍💻 Autores
 
 **Allan Souza**
-
-Estudante de Análise e Desenvolvimento de Sistemas.
 
 GitHub:
 
@@ -209,6 +209,30 @@ GitHub:
 LinkedIn:
 
 > www.linkedin.com/in/allan-de-souza-2917622b9
+
+<hr>
+
+**Kelvin**
+
+GitHub:
+
+> https://github.com/K4lvin12
+
+<hr>
+
+**Carlos Monasterios**
+
+GitHub:
+
+> https://github.com/clmonasterios
+
+<hr>
+
+**Yuri Souza**
+
+GitHub:
+
+> https://github.com/inkyzx
 
 ---
 
