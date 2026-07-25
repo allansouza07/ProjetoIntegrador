@@ -291,7 +291,7 @@ body{
 
 #procedimentos{
     display:flex;
-    flex-direction:row:
+    flex-direction:row;
     justify-content:center;
     align-items:center;
     padding:40px; 
@@ -503,14 +503,24 @@ a{
    ========================================================== */
 .cabecalho{
     background: rgb(219,190,212);
-    display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 14px 5%;
     position: sticky;
     top: 0;
     z-index: 999;
-    width:100vh;
+    
+}
+.opcoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho a{
+    position: relative;
+    left:80px;
+    font-size: 15px;
+    text-align: center;
 }
 
 .logo-link{
@@ -522,7 +532,7 @@ a{
 }
 #logomain{
     position:relative;
-    left:50px;
+    left:20px;
 }
 
 /* Checkbox invisível que controla o menu */
@@ -538,12 +548,12 @@ a{
     height: 22px;
     cursor: pointer;
     z-index: 1001;
-    j
 }
 
 #botao_agendamento{
-    position: relative;
-    left:50px;
+    position:relative;
+    left: 0px;
+    
 }
 
 .opcao{
@@ -613,7 +623,7 @@ a{
     margin-bottom: 16px;
     font-family: 'Times New Roman', Times, serif;
     position: relative;
-    left:60px;
+    
 }
 
 #mensagem_main2{
@@ -624,7 +634,7 @@ a{
     margin-bottom: 24px;
     max-width: 480px;
     position: relative;
-    left:60px;
+    
 }
 
 #botao_agendamento{
@@ -657,7 +667,7 @@ a{
     align-items: center;
     width: 100%;
     top:-100px;
-    left:50px;
+    
 }
 
 #fundo_neutro{
@@ -686,7 +696,7 @@ a{
    CARROSSEL
    ========================================================== */
 #carrossel{
-    width: 100vh;
+    
     overflow: hidden;
     margin: 20px 0 40px 0;
 }
@@ -786,7 +796,10 @@ a{
 }
 
 #imagem_maps{
-    width: 100%;
+    width: 70%;
+    position: relative;
+    left:-100px;
+    margin-bottom: -200px;
 }
 
 #maps{
@@ -830,6 +843,9 @@ a{
     font-size: 16px;
     font-weight: bold;
     margin-top: 24px;
+}
+#img_loc{
+    visibility: hidden;
 }
 
 /* ==========================================================
