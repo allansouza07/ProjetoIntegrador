@@ -4,6 +4,25 @@
     box-sizing:border-box;
     font-family: Arial, sans-serif;
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #d2aeda;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #da7fda;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #751170;
+}
+
 .cabecalho{
     background:rgb(219,190,212);
     min-height:100px;
