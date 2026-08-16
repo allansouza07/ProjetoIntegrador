@@ -548,13 +548,7 @@ a{
    CABEÇALHO + MENU HAMBURGUER (sem JavaScript)
    ========================================================== */
 .cabecalho{
-    background: rgb(219,190,212);
-    align-items: center;
-    justify-content: center;
-    padding: 14px 5%;
-    position: sticky;
-    top: 0;
-    z-index: 999;
+    visibility: hidden;
     
 }
 .opcoes{
